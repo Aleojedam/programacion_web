@@ -69,7 +69,7 @@ $resultado = mysqli_query($conexion, $sql);
             echo "<td>" . $row["discapacidad"] . "</td>";
             echo "<td>" . $row["donante"] . "</td>";
             echo "<td>" . $row["fecha_emision"] . "</td>";
-           // Mostrar la imagen directamente (asumiendo que 'foto' es la columna que contiene la ruta de la imagen)
+        
             echo "<td><img src='" . $row["foto_carnet"] . "' alt='Foto'></td>";
             echo "<td>" . $row["id"] . "</td>";
             echo "<td><form action='generar_cedula.php' method='POST'>";
